@@ -1,13 +1,22 @@
 <template>
   <div>
-    <div>home</div>
-    <router-link to="list">list</router-link>
+    <!-- 头部顶栏 -->
+    <home-header></home-header>
+    <home-swiper></home-swiper>
   </div>
 </template>
 
 <script>
+import HomeHeader from './components/Header'
+import HomeSwiper from './components/swiper'
+import HomeIcons from './components/Icons'
 export default {
-
+  name: "Home",
+  components: {
+    HomeHeader,
+    HomeSwiper,
+    HomeIcons
+  }
 }
 </script>
 
