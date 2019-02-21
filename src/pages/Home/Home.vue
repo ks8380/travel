@@ -3,6 +3,7 @@
     <!-- 头部顶栏 -->
     <home-header></home-header>
     <home-swiper></home-swiper>
+    <home-icons></home-icons>
   </div>
 </template>
 
